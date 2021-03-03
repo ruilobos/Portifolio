@@ -1,7 +1,15 @@
 body {
-    background: #f5d9d5;
+    background: white;
     font-family: "Nunito", sans-serif;
 }
+
+hr {
+	width: 400px;
+	max-width: 90%;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
 
 .blurb h2 {
    color: #EA1C2C;
@@ -21,13 +29,28 @@ body {
     margin-bottom: 100px;
 }
 
+#home {
+    background: url(imgs/fernando-hernandez-pOmr_qQRgiU-unsplash.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+#home_text {
+	text-align: left;
+    vertical-align: middle;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;    
 }
 
 #mainNavbar .nav-link {
-    color: white;
+    color: grey;
 }
 
 #mainNavbar .nav-link:hover {
@@ -47,6 +70,11 @@ body {
     font-weight: 100;
     font-size: 4rem;
 }
+
+#cover {
+    background-image: url("imgs/fernando-hernandez-pOmr_qQRgiU-unsplash.jpg");
+    background-size: cover;
+  }
 
 .navbar.scrolled {
     background: rgb(222,192,222);
