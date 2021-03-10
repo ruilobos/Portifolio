@@ -10,7 +10,6 @@ hr {
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-
 .blurb h2 {
    color: #EA1C2C;
    font-weight: 100;
@@ -72,10 +71,13 @@ hr {
 }
 
 #cover {
-    background-image: url("imgs/fernando-hernandez-pOmr_qQRgiU-unsplash.jpg");
-    background-size: cover;
+    background: url("imgs/mahdi-soheili-m-jJ4wLjoIc-unsplash.jpg");
+    background-size:cover;
   }
 
+  .jumbotron {
+      height: 35rem;
+  }
 .navbar.scrolled {
     background: rgb(222,192,222);
     transition: background 500ms;
