@@ -1,94 +1,118 @@
 body {
     background: white;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #616161;
 }
+
+body h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    color: #023047;
+}
+
+@media screen and (max-width: 600px) {
+    body h2 {
+        font-size: 36px;
+    }
+}
+
+body p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+    body p {
+        font-size: 11px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;;
+}
+
+a {
+    color: inherit;
+} 
 
 hr {
-	width: 400px;
+	width: 250px;
 	max-width: 90%;
-	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-top: 0px solid #ffb703;
+	border-bottom: 3px solid #ffb703;
 }
 
-.blurb h2 {
-   color: #EA1C2C;
-   font-weight: 100;
-   font-size: 2.5rem;
+h1 {
+    color:#023047;
+    font-size: 50px;
 }
 
-.blurb p {
-    color: #f498b8;
-    font-weight: 100;
-    font-size: 1.125rem;
-    line-height: 2;
-}
-
-.content {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-#home {
-    background: url(imgs/fernando-hernandez-pOmr_qQRgiU-unsplash.jpg);
+.parallax {
+    background: url("imgs/mahdi-soheili-m-jJ4wLjoIc-unsplash.jpg");
+    min-height: 35rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
-	background-position: center;
 }
 
-#home_text {
-	text-align: left;
-    vertical-align: middle;
-	padding-top: 25%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  color: #ffffff;
+  background-color: #ffb703;
+  border-color: #ffb703;
 }
 
-#mainNavbar {
-    font-size: 1.5rem;
-    font-weight: 100;    
+.navbar-light .navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: #023047;
+}
+@media screen and (max-width: 600px) {
+    .navbar-light .navbar-brand {
+        font-size: 18px;
+    }
 }
 
-#mainNavbar .nav-link {
-    color: grey;
+.fa-check {
+    color:#023047
 }
 
-#mainNavbar .nav-link:hover {
-    color: #EA1C2C;
+.fa-registered {
+    color:#023047
 }
 
-#mainNavbar .navbar-brand {
-    color: #EA1C2C;
-    font-size: 1.5rem;
+#card .card-title {
+    height: 3rem;
 }
 
-#headingGroup span {
-    color: #EA1C2C;
-}
-
-#headingGroup h1 {
-    font-weight: 100;
-    font-size: 4rem;
+#card .card-text {
+    height: 10rem;
 }
 
 #cover {
-    background: url("imgs/mahdi-soheili-m-jJ4wLjoIc-unsplash.jpg");
-    background-size:cover;
-  }
-
-  .jumbotron {
-      height: 35rem;
-  }
-.navbar.scrolled {
-    background: rgb(222,192,222);
-    transition: background 500ms;
+    height: 20rem;
 }
 
-@media (max-width: 1200px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 3rem;
-    }
-    .blurb h2 {
-        font-size: 2rem;
+#hr_cover {
+    margin-right: 100%;
+}
+
+#hr_right {
+    margin-right: 100%;
+}
+@media screen and (max-width: 600px) {
+    #hr_right {
+        margin-right: 10%;
     }
 }
+
+#contact {
+    text-align: left;
+}
+@media screen and (max-width: 600px) {
+    #contact {
+        text-align: center;
+    }
+}
+
