@@ -42,6 +42,7 @@ h1 {
     font-size: 50px;
 }
 
+
 .parallax {
     background: url("imgs/mahdi-soheili-m-jJ4wLjoIc-unsplash.jpg");
     min-height: 35rem;
@@ -76,13 +77,15 @@ h1 {
     color:#023047
 }
 
-#card .card-title {
-    height: 3rem;
+.contact {
+    text-align: left;
+}
+@media screen and (max-width: 600px) {
+    .contact {
+        text-align: center;
+    }
 }
 
-#card .card-text {
-    height: 10rem;
-}
 
 #cover {
     height: 20rem;
@@ -101,12 +104,11 @@ h1 {
     }
 }
 
-#contact {
-    text-align: left;
+#card .card-title {
+    height: 3rem;
 }
-@media screen and (max-width: 600px) {
-    #contact {
-        text-align: center;
-    }
+
+#card .card-text {
+    height: 10rem;
 }
 
